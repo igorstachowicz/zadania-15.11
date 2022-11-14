@@ -1,0 +1,46 @@
+<HTML>
+
+<HEAD>
+    <TITLE>Zadania</TITLE>
+    <link rel="stylesheet" href="mystyle.css">
+    <SCRIPT src="myscript.js" LANGUAGE="JavaScript"></SCRIPT>
+</HEAD>
+
+<BODY>
+    <h1>Calculator</h1>
+    <FORM NAME="calculatorForm" ACTION="" METHOD="GET">
+        First number: <BR>
+        <INPUT TYPE="number" id="first" VALUE=""> <br><br>
+        Second number: <br>
+        <input type="number" id="second"> <br>
+
+        <input type="radio" name="calculator" id="add">
+        <b>+</b> <br>
+
+        <input type="radio" name="calculator" id="subtract">
+        <b>-</b> <br>
+
+        <input type="radio" name="calculator" id="multiply">
+        <b>*</b> <br>
+
+        <input type="radio" name="calculator" id="divide">
+        <b>/</b> <br><br>
+
+        <INPUT TYPE="button" NAME="button" Value="Run" onClick="calculate()">
+
+    </FORM>
+    <br>
+    <div id="calcResult"></div>
+    <br>
+
+    <h1>Palindrome</h1>
+    <FORM NAME="palindromeForm" ACTION="" METHOD="GET">Type a word to check: <BR>
+        <INPUT TYPE="text" id="inputbox2" VALUE="">
+        <P>
+            <INPUT TYPE="button" NAME="button2" Value="Check" onClick="palindrome()">
+    </FORM>
+    <div id="palindromeResult"></div>
+
+</BODY>
+
+</HTML>
